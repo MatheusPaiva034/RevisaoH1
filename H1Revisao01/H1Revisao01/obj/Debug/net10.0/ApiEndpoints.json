@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "H1Revisao01.Controllers.CandidatoController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Candidato",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "candidato",
+        "Type": "H1Revisao01.Models.Candidato",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "H1Revisao01.Controllers.CandidatoController",
+    "Method": "Listar",
+    "RelativePath": "api/Candidato",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "H1Revisao01.Controllers.VotoController",
+    "Method": "Registrar",
+    "RelativePath": "api/Voto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voto",
+        "Type": "H1Revisao01.Models.Voto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "H1Revisao01.Controllers.VotoController",
+    "Method": "ConsultarVotos",
+    "RelativePath": "api/Voto/{numero}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "H1Revisao01.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[H1Revisao01.WeatherForecast, H1Revisao01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
