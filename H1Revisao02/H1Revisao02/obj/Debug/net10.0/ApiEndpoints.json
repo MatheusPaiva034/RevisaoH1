@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "H1Revisao02.Controllers.ProjetoController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Projeto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projeto",
+        "Type": "H1Revisao02.Models.Projeto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "H1Revisao02.Controllers.ProjetoController",
+    "Method": "Listar",
+    "RelativePath": "api/Projeto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "H1Revisao02.Controllers.VisitaController",
+    "Method": "Registrar",
+    "RelativePath": "api/Visita",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "visita",
+        "Type": "H1Revisao02.Models.Visita",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "H1Revisao02.Controllers.VisitaController",
+    "Method": "Consultar",
+    "RelativePath": "api/Visita/{numero}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "H1Revisao02.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[H1Revisao02.WeatherForecast, H1Revisao02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
